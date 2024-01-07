@@ -25,7 +25,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.common.exceptions import NoSuchElementException
 ```
 
-## | <ins>Function to Initialize Things We Need and Enter GitHub</ins>
+## | <ins>Initialize Things We Need and Enter GitHub</ins>
 ```python
 # Replace these with your actual GitHub username and password
 username = 'Your Username'
@@ -63,7 +63,7 @@ password_field.send_keys(Keys.RETURN)
 time.sleep(5)
 ```
 
-## | <ins>Function to find Search Area and Send Search Input</ins>
+## | <ins>Find Search Area and Send Search Input</ins>
 
 * You can change search input according to your needs.
 
